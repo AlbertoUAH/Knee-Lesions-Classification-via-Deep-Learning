@@ -4,9 +4,9 @@ Knee Lesions Classification via Deep Learning Techniques (MRNet model)
 # Summary
 The main purpose of this project is training and deploy a Deep Learning model for knee lesions detection:
 
-* Anterior Cruciate Ligament tear or ACL Tear
-* Meniscus Tear
-* Another abnormalities or "Abnormal"
+* Anterior Cruciate Ligament tear or ACL Tear: __319 positive cases__
+* Meniscus Tear: __508 positive cases__
+* Another abnormalities or "Abnormal": __1104 positive cases__
 
 # Data
 Training and validation data were extracted from [Stanford Machine Learning Group Repository](https://stanfordmlgroup.github.io/competitions/mrnet/):
