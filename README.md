@@ -38,10 +38,15 @@ streamlit run main.py
 ```
 # References
 [!Stanford Machine Learning Repository](https://stanfordmlgroup.github.io/competitions/mrnet/)
+
 [!Deep-learning-assisted diagnosis for knee magnetic resonance imaging: Development and retrospective validation of MRNet / Plos Medicine Journal](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002699)
+
 [!Stanford MRNet Challenge: Classifying Knee MRIs](https://learnopencv.com/stanford-mrnet-challenge-classifying-knee-mris/)
+
 [!Triple MRNet Architecture sample](https://github.com/yashbhalgat/MRNet-Competition)
+
 [!Implemented Grad-CAM in PyTorch for VGG16 Network](https://medium.com/@stepanulyanin/implementing-grad-cam-in-pytorch-ea0937c31e82)
+
 [!Streamlit library](https://streamlit.io/)
 
 
