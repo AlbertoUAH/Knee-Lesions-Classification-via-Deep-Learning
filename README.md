@@ -32,9 +32,9 @@ Table of Contents
    * ./src/utils.py: python file which contains application corpus such as constants, functions and MRNet class (deep learning architecture)
    * ./src/train.ipynb: python notebook for model training (trained on Google Colab - GPU)
    
-    * learning\_rate: 1e-05
+    * learning_rate: 1e-05
     * data augmentation (imgaug library)
-    * pos\_weights on Loss function
+    * pos_weights on Loss function
     
    * ./data: folder with few samples of MRI validation data
 
