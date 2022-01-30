@@ -39,6 +39,8 @@ The final web application for model deployment was built using streamlit library
 ```
 streamlit run main.py
 ```
+![Web application gif sample](./media/webapp_gif.gif)
+
 # References
 [Stanford Machine Learning Repository](https://stanfordmlgroup.github.io/competitions/mrnet/)
 
