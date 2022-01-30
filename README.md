@@ -16,6 +16,9 @@ Training and validation data were extracted from [Stanford Machine Learning Grou
 # Model architecture
 In a nutshell, the architecture consists of three-pretrained AlexNet models using PyTorch (only the convolutional part is selected). Convolutional outputs are concatenated into a Fully Conected layer (FC) to get the probability of each lesion (sigmoid function):
 
+![Triple MRNet Model architecture](./media/architecture_diagram.png)
+
+
 # Training and validation results
 
 | Train acc. | Validation acc. | Abnormal sens. | Abnormal spec. | ACL sens. | ACL spec. | Meniscus sens. | Meniscus spec. |
