@@ -28,10 +28,13 @@ In a nutshell, the architecture consists of three-pretrained AlexNet models usin
 # GitHub content
 Table of Contents
 =================
-   * main.py: python main file for webapp execution
-   * utils.py: python file which contains application corpus such as constants, functions and MRNet class (deep learning architecture)
-   * train.ipynb: python notebook for model training (trained on Google Colab - GPU)
-   * val data: folder with few samples of MRI validation data
+   * ./src/main.py: python main file for webapp execution
+   * ./src/utils.py: python file which contains application corpus such as constants, functions and MRNet class (deep learning architecture)
+   * ./src/train.ipynb: python notebook for model training (trained on Google Colab - GPU)
+    * learning\_rate: 1e-05
+    * data augmentation (imgaug library)
+    * pos\_weights on Loss function
+   * ./data: folder with few samples of MRI validation data
 
 # Web application
 The final web application for model deployment was built using streamlit library (Python). To deploy the app, you must run the following line in your command line or cmd:
@@ -52,6 +55,8 @@ This web application shows not only labels probabilities (Abnormal, ACL and Meni
 [Stanford MRNet Challenge: Classifying Knee MRIs](https://learnopencv.com/stanford-mrnet-challenge-classifying-knee-mris/)
 
 [Triple MRNet Architecture sample](https://github.com/yashbhalgat/MRNet-Competition)
+
+[Image augmentation library](https://github.com/aleju/imgaug)
 
 [Implemented Grad-CAM in PyTorch for VGG16 Network](https://medium.com/@stepanulyanin/implementing-grad-cam-in-pytorch-ea0937c31e82)
 
