@@ -39,6 +39,9 @@ The final web application for model deployment was built using streamlit library
 ```
 streamlit run main.py
 ```
+
+This web application shows not only labels probabilities (Abnormal, ACL and Meniscus tear), but also image heatmap via GradCAM algorithm:
+
 ![Web application gif sample](./media/webapp_gif.gif)
 
 # References
@@ -51,6 +54,8 @@ streamlit run main.py
 [Triple MRNet Architecture sample](https://github.com/yashbhalgat/MRNet-Competition)
 
 [Implemented Grad-CAM in PyTorch for VGG16 Network](https://medium.com/@stepanulyanin/implementing-grad-cam-in-pytorch-ea0937c31e82)
+
+[GradCAM explained](https://glassboxmedicine.com/2020/05/29/grad-cam-visual-explanations-from-deep-networks/#:~:text=Grad%2DCAM%20is%20a%20form,and%20the%20parameters%20are%20fixed.)
 
 [Streamlit library](https://streamlit.io/)
 
