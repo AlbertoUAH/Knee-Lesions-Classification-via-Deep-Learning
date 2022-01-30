@@ -9,7 +9,7 @@ The main purpose of this project is training and deploy a Deep Learning model fo
 * Another abnormalities or "Abnormal"
 
 # Data
-Training and validation data were extracted from [!Stanford Machine Learning Group Repository](https://stanfordmlgroup.github.io/competitions/mrnet/):
+Training and validation data were extracted from [Stanford Machine Learning Group Repository](https://stanfordmlgroup.github.io/competitions/mrnet/):
 * Train data: contains 1130 .npy files
 * Validation data: contains 120 .npy files
 
@@ -37,16 +37,16 @@ The final web application for model deployment was built using streamlit library
 streamlit run main.py
 ```
 # References
-[!Stanford Machine Learning Repository](https://stanfordmlgroup.github.io/competitions/mrnet/)
+[Stanford Machine Learning Repository](https://stanfordmlgroup.github.io/competitions/mrnet/)
 
-[!Deep-learning-assisted diagnosis for knee magnetic resonance imaging: Development and retrospective validation of MRNet / Plos Medicine Journal](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002699)
+[Deep-learning-assisted diagnosis for knee magnetic resonance imaging: Development and retrospective validation of MRNet / Plos Medicine Journal](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002699)
 
-[!Stanford MRNet Challenge: Classifying Knee MRIs](https://learnopencv.com/stanford-mrnet-challenge-classifying-knee-mris/)
+[Stanford MRNet Challenge: Classifying Knee MRIs](https://learnopencv.com/stanford-mrnet-challenge-classifying-knee-mris/)
 
-[!Triple MRNet Architecture sample](https://github.com/yashbhalgat/MRNet-Competition)
+[Triple MRNet Architecture sample](https://github.com/yashbhalgat/MRNet-Competition)
 
-[!Implemented Grad-CAM in PyTorch for VGG16 Network](https://medium.com/@stepanulyanin/implementing-grad-cam-in-pytorch-ea0937c31e82)
+[Implemented Grad-CAM in PyTorch for VGG16 Network](https://medium.com/@stepanulyanin/implementing-grad-cam-in-pytorch-ea0937c31e82)
 
-[!Streamlit library](https://streamlit.io/)
+[Streamlit library](https://streamlit.io/)
 
 
